@@ -1,0 +1,14 @@
+def is_palindrome(string):
+    return string == string[::-1].strip()
+
+if __name__ == __main__:
+    word = input()
+    result = is_palindrome(word)
+    print(result)
+def is_palindrome(string):
+    return string == string[::-1].strip()
+
+if __name__ == __main__:
+    word = input()
+    result = is_palindrome(word)
+    print(result)
